@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=DM+Sans:wght@500;700&display=swap');
+body{
+    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'DM Sans', sans-serif;
+    width: 1397px;
+    height: 930px;
+    margin: 0 auto;
+    /* border: 1px solid red */
+}
+.footer-width{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red */
+    margin-top: 66px;
+
+}
+
+.logo-text{
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -0.292683px;
+    color: #1E0E62;
+}
+
+.div-nav-btn{
+    display: flex;
+    align-items: center;
+}
+
+.nav-li{
+    display: flex;
+    column-gap: 31px;
+    
+}
+
+.nav-li li{
+    margin-right: 33px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #1E0E62;
+}
+
+.button{
+    background: #482BE7;
+    border-radius: 100px;
+    padding: 7px 24px;
+}
+.text-btn{
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+/* cards */
+
+.text-card{
+    width: 400px;
+}
+.title{
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    color: #1E0E62;
+}
+
+.title-p1{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+    color: rgba(21, 20, 57, 0.4);
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+.btn-title{
+    display: flex;
+    align-items: center;
+    column-gap: 35px;
+}
+.card-btn{
+    background: #25DAC5;
+    border-radius: 100px;
+    padding: 12px 27px;
+}
+
+/* image card */
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 74px;
+}
+
+.img-card{
+    background-color: black;
+    padding: 15px;
+    border-radius: 20px;
+}
